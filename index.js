@@ -14,3 +14,4 @@ describe('index.js', function () {
       expect(newID).to.eq(1000000000 + oldID);
     });
   });
+  
