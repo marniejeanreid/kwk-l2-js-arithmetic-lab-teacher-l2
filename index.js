@@ -7,5 +7,10 @@ You should NOT try to redefine any of the above variables.
 */
 
 // Write your code below this line!
-var newID = 1000000000 + oldID
-return newID
+
+describe('index.js', function () {
+  describe('newID', function () {
+    it('converts IDs from the old style to the new style', function () {
+      expect(newID).to.eq(1000000000 + oldID);
+    });
+  });
